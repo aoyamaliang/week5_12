@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
 
-
+*{
+  border:1px solid!important;
+}
 
 h1{
   font-size: 2.25em;
@@ -38,7 +40,7 @@ font-family: ‘Poppins’, sans-serif;
 }
 hr.divider-solid{
   border-top:1px solid rgba(33,56,66,.1);
-  margin:180px 12%;
+  margin:150px 12%;
 }
 
 /*---------- Header  ----------*/
@@ -121,9 +123,10 @@ section {
   letter-spacing: 2px;
 }
 
-h4{
+.hero-intro h4{
   letter-spacing: 1px;
   line-height: 1.7;
+  color:white;
 }
 
 .cta{
@@ -145,7 +148,7 @@ h4{
 1.靠右對齊,對齊 header 的 contact
 */
 .brands-slider{
-  width: 1276px;
+  /* width: 1276px; */
   background: white;
   position: relative;
   margin: -113px 0 0 12%; 
@@ -256,17 +259,24 @@ h4{
  width: 60%;
 }
 
-.item1{
+.item-left{
   margin-top: 60px;
   display: flex;
-  align-items:safe-center;
+  align-items:center;
 }
+
+.item-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
 
 .item-card{
   width: 453px;
   height: 243px;
   border-radius: 8px;
-  padding: 30px;
+  padding:20px;
   box-sizing: border-box;
   box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.15);
   background-color: white;
@@ -275,6 +285,13 @@ h4{
   top: -178px;
   left: 324px;  
 }
+
+.item-right .item-card{
+  position: relative;
+  top: -178px;
+  left: -100px; 
+}
+
 
 
 /* ----------  Avatar-s  START---------- */
@@ -308,4 +325,26 @@ h4{
 
 /* ----------  Avatar-s END ---------- */
 
+/* ----------  Product-Idea---------- */
 
+.ideas{
+  display: flex;
+}
+
+.idea-card{
+  width: 255px;
+  height: 260px;
+  margin: 0 15px;
+  padding: 15px;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.2);
+}
+
+.banner{
+  width: 916px;
+  height: 200px;
+  background:#FAFAFA;
+  margin-top: 150px;
+  padding: 70px 12%;
+  z-index: 1;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.2);
+}
