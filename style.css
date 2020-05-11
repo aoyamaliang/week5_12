@@ -300,13 +300,14 @@ section {
   display:flex;
   align-items: center;
 }
-.post-avatar{
+.post-avatar img{
   background: #4D533C;
   width: 46px;
   height: 46px;
   border-radius: 50%; 
-  box-shadow: 10px 10px 40px rgba(0,0,0,.18);
+  box-shadow: 10px 10px 40px rgba(0,0,0,.2);
 }
+
 
 .post-content{
   margin-left: 15px;
@@ -331,6 +332,11 @@ section {
   display: flex;
 }
 
+.ideas h3{
+  color:#4D533C;
+  text-transform: uppercase;
+  line-height: 34px;;
+}
 .idea-card{
   width: 255px;
   height: 260px;
