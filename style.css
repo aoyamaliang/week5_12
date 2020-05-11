@@ -43,6 +43,18 @@ hr.divider-solid{
   margin:150px 12%;
 }
 
+.footer-divider{
+  border-top:1px solid rgb(93,101,68);
+  /* margin:52px 12%; */
+}
+
+.footer-v-divier{
+  border-top:1px solid rgb(93,101,68);
+  /* margin:52px 12%; */
+  transform: rotate(90deg);
+  width: 210px;
+}
+
 /*---------- Header  ----------*/
 li,
 a,
@@ -349,8 +361,45 @@ section {
   width: 916px;
   height: 200px;
   background:#FAFAFA;
-  margin-top: 150px;
+  margin-top: 40px;
   padding: 70px 12%;
   z-index: 1;
   box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.2);
+
+  position: relative;
+
+  bottom:-190px;
 }
+
+/* ----------  Footer ---------- */
+.bg-section{
+  background-color: #4F553D;
+  height: 246px;
+  width: 100%;
+}
+
+.footer-bg{
+  width: 100%;
+  position: absolute;
+  background-color: #4F553D;
+  z-index: -1;
+  height: 674px;
+  overflow: hidden;
+}
+
+.footer-bg img{
+ width: 100%;
+ min-height: 100%;
+ min-width: 1000px;
+ /* min-width縮小時，背景圖能滿版 */
+}
+
+.basic-info{
+  display: flex;
+}
+
+.footer-links{
+  display:flex;
+}
+
+
