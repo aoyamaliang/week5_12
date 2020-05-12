@@ -342,6 +342,7 @@ section {
 
 .ideas{
   display: flex;
+  justify-content: space-between;
 }
 
 .ideas h3{
@@ -352,7 +353,7 @@ section {
 .idea-card{
   width: 255px;
   height: 260px;
-  margin: 0 15px;
+  margin: 0 20px 0 0;
   padding: 15px;
   box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.2);
 }
@@ -396,10 +397,58 @@ section {
 
 .basic-info{
   display: flex;
+  padding: 80px 0 52px 0 ;
+}
+
+.basic-info .address{
+ margin-left: 4%;
+}
+
+.basic-info span{
+  color:#B6C197;
+}
+
+.basic-info p{
+  color:white;
 }
 
 .footer-links{
   display:flex;
+  margin: 72px 0;
+  justify-content: space-between;
 }
 
+.footer-links h4{
+color:white;
+}
 
+.footer-links h5{
+  color:#B6C197;
+}
+
+.footer-contact{
+  margin: 12px 0 12px 110px;
+}
+
+.footer-contact p{
+  color:#B6C197;
+}
+
+.footer-contact h4{
+  color:white;
+}
+
+.social{
+  color:white;
+  font-size: 30px;
+}
+
+.copyright{
+  display: flex;
+  align-items:flex-end;
+  margin: 30px 0;
+}
+
+.copyright p{
+ color:#B5C096;
+}
