@@ -410,6 +410,7 @@ section {
 
 .basic-info p{
   color:white;
+  margin-top: 20px;
 }
 
 .footer-links{
@@ -420,6 +421,8 @@ section {
 
 .footer-links h4{
 color:white;
+text-transform:uppercase ;
+font-weight: 700;
 }
 
 .footer-links h5{
