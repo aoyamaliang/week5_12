@@ -455,3 +455,69 @@ font-weight: 700;
 .copyright p{
  color:#B5C096;
 }
+
+@media screen and (max-width: 375px) {
+  .header button{
+    display:none;
+  }
+
+  .hero-intro h4 br{
+   display:none;
+  }
+
+  .big-title {
+    font-size: 3em;
+  }
+  .nav_links{
+    display:none;
+  }
+
+  .brands-slider{
+    display:none;
+  }
+
+  .strategy-intro{
+    width: 100%;
+  }
+  .strategy-card{
+    width:325px;
+    right: 6%;
+    top:680px;
+  }
+  
+  .project{
+    margin-top: 700px;
+
+  }
+
+  .project-header{
+    flex-direction: column;
+  }
+
+  .project-title{
+    width:100%;
+  }
+
+  .project-content{
+    width: 100%;
+  }
+
+  .project-content br{
+    display:none;
+  }
+
+  .banner{
+    width: 375px;
+    height: 200px;
+    background:#FAFAFA;
+    margin-top: 40px;
+    padding: 70px 12%;
+    z-index: 1;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.2);
+  
+    position: relative;
+  
+    bottom:-190px;
+  }
+
+}
